@@ -1,0 +1,10 @@
+This is just a basic Arduino sketch for sending sensor readings to an openLog via serial.
+
+It also works just fine at sending the sensor data over serial to a computer. Data is presented in CSV format. 
+
+If using the XCode project, be sure to edit the Makefile to reflect the location of the Arduino IDE application. The Makefile looks for any usb to serial devices connected, so it's best to only connect one at a time when uploading the sketch.
+
+In XCode, go to Build > Clean all targets to compile and upload in one shot.
+
+Good luck!
+-Robert
