@@ -63,6 +63,7 @@
 # Update these to reflect the location of the Arduino IDE and avrdude installations, respectively
 ARDUINO = /Applications/arduino-0013/hardware/cores/arduino/
 AVRDUDE_DIR = /usr/local/AVRMacPack/bin/
+#AVRDUDE_DIR = /Applications/arduino-0013/hardware/tools/avr/bin/
 
 PORT = /dev/tty.usbserial*
 TARGET = main
